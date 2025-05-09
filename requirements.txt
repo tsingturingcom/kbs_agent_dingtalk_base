@@ -1,0 +1,27 @@
+aiohttp>=3.8.5
+asyncio==3.4.3
+configparser==6.0.0
+pydantic>=2.0,<3.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# DingTalk Stream SDK
+dingtalk-stream
+
+# Optional for database interactions if needed beyond basic sqlite3
+sqlalchemy
+
+# Add litellm for accurate token counting
+litellm
+
+# OpenAI - 指定版本 0.28.0，确保与 litellm 兼容
+openai==0.28.0
+
+# Tiktoken
+tiktoken
+
+# Rich
+rich
+
+# Supabase
+supabase>=2.0.0 

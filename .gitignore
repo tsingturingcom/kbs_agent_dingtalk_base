@@ -1,0 +1,43 @@
+# 配置文件
+config.ini
+# 但保留模板
+!config.template.ini
+
+# 环境变量
+.env
+
+# 日志文件
+*.log
+
+# 编辑器文件
+.vscode/
+.idea/
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Docker 相关
+docker-compose.yml
+
+# 其他敏感文件
+credentials/ 

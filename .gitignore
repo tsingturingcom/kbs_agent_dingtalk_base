@@ -1,5 +1,5 @@
 # 配置文件
-config.ini
+# config.ini
 # 但保留模板
 !config.template.ini
 
